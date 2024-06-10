@@ -1,19 +1,20 @@
+import { html } from 'htm/preact';
+
 import Header from './components/Header/Header.jsx';
 import Preview from './components/Preview/Preview.jsx';
 import Footer from './components/Footer/Footer.jsx';
 
 function App() {
-	return (
+	return html`
 		<>
-			<Header />
+			<${Header} />
 			<main className='main'>
 				<div className='container'>
-					<Preview />
+					<${Preview} />
 				</div>
 			</main>
-			<Footer />
-		</>
-	);
+			<${Footer} />
+		</>`;
 }
 
 export default App;
