@@ -4,33 +4,33 @@ import meetingImg from '../../assets/meeting.jpg';
 import styles from './Preview.module.css';
 
 export default function Preview() {
-	return html`<article className=${styles.preview}>
-		<div className=${styles.image}>
-			<div className=${styles.inner}>
+	return html`<article class=${styles.preview}>
+		<div class=${styles.image}>
+			<div class=${styles.inner}>
 				<img src=${meetingImg} alt="People at a meeting" />
 			</div>
 		</div>
-		<div className=${styles.content}>
-			<h2 className=${styles.title}>
+		<div class=${styles.content}>
+			<h2 class=${styles.title}>
 				Get <mark>insights</mark> that help your business grow.
 			</h2>
-			<p className=${styles.desc}>
+			<p class=${styles.desc}>
 				Discover the benefits of data analytics and make better
 				decisions regarding revenue, customer experience, and overall
 				efficiency.
 			</p>
-			<ul className=${styles.statuses}>
+			<ul class=${styles.statuses}>
 				<li>
-					<span className=${styles.num}>10K+</span>
-					<span className=${styles.label}>Companies</span>
+					<span class=${styles.num}>10K+</span>
+					<span class=${styles.label}>Companies</span>
 				</li>
 				<li>
-					<span className=${styles.num}>314</span>
-					<span className=${styles.label}>Templates</span>
+					<span class=${styles.num}>314</span>
+					<span class=${styles.label}>Templates</span>
 				</li>
 				<li>
-					<span className=${styles.num}>12M+</span>
-					<span className=${styles.label}>Queries</span>
+					<span class=${styles.num}>12M+</span>
+					<span class=${styles.label}>Queries</span>
 				</li>
 			</ul>
 		</div>
